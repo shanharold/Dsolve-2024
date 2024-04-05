@@ -1,4 +1,22 @@
-.Main_heading
-{
-    color : "#ffffff";
+*{
+    margin:0px;
+    font-family: "Arial";
+    border: "border-box"
+}
+
+.navbar{
+    height: "60px";
+    background-color: black;
+    color:white;
+}
+.nav-logo{
+    height:50px;
+    width:100px;
+}
+
+.logo{
+    background-size: "cover";
+    background-image: url("Store.png");
+    height:50px;
+    width:100%;
 }
