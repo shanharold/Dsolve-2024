@@ -2,7 +2,7 @@
     height: "82px";
     display: flex;
     align-items: center;
-    background-color: blue;
+    /* background-color: blue; */
     margin-top: 20px;
 }
 
@@ -11,7 +11,7 @@
     display: flex;
     width:"40px";
     height: "60px";
-    background-color: red;   
+    /* background-color: red;    */
 }
 
 .heading1{
@@ -26,31 +26,46 @@
     align-items: center;
     width:200px;
     height:200px;
-    background-image:url('geometric-dark-background-with-gradient-shapes-composition-good-for-posters-design-illustration-vector.jpg');
-    background-size: cover;
-    background-attachment:fixed ;
-    background-position: center;
-    overflow: hidden;
+    background-size:contain; 
+    background-repeat: no-repeat;
+    
+    background-image:url('stock1.webp');
+    border-radius: 5px;
+}
+.box-img{
+    border:0.1px solid black;
 }
 
-.shop-section{
+
+.box{
     height: "60px";
+    width: 100%;
     margin-top:30px;
+    margin: 40px 25px;
     display: flex;
-    background-color: black;
-    color:white;
-    align-items: center;
-    justify-content: space-between;
+    /* background-color: pink; */
+    color:black;
 }
-.shop-section{
-    width: 420px;
+/* .shop-section{
     background-color: purple;
     color:white;
     height: 360px;
-    margin: 40px 25px;
-}
 
-.box{
-    background-color: pink;
-    
+} */
+.box-item{
+    width:100%;
+    display: flex;
+    align-items: center;
+    /* background-color: red; */
+
+}
+.box-desc{
+    /* background-color: yellow; */
+    font-size: 18px;
+    font-family: "Arial";
+    margin-left: 30px;
+}
+.box-price{
+    margin-top:30px;
+    /* background-color: yellowgreen; */
 }
