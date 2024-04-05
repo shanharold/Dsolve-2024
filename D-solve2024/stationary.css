@@ -1,0 +1,56 @@
+.explore-tab{
+    height: "82px";
+    display: flex;
+    align-items: center;
+    background-color: blue;
+    margin-top: 20px;
+}
+
+.heading1-div{
+    margin-left:30px;
+    display: flex;
+    width:"40px";
+    height: "60px";
+    background-color: red;   
+}
+
+.heading1{
+    font-size: 25px;
+    font-family: "Arial";
+    font-weight: 600;
+}
+
+.box-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:200px;
+    height:200px;
+    background-image:url('geometric-dark-background-with-gradient-shapes-composition-good-for-posters-design-illustration-vector.jpg');
+    background-size: cover;
+    background-attachment:fixed ;
+    background-position: center;
+    overflow: hidden;
+}
+
+.shop-section{
+    height: "60px";
+    margin-top:30px;
+    display: flex;
+    background-color: black;
+    color:white;
+    align-items: center;
+    justify-content: space-between;
+}
+.shop-section{
+    width: 420px;
+    background-color: purple;
+    color:white;
+    height: 360px;
+    margin: 40px 25px;
+}
+
+.box{
+    background-color: pink;
+    
+}
