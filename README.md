@@ -36,7 +36,7 @@ Javascript
 The web app can be directly run from the main.html file. No additional configuration required
 
 ## How to Run
-The web app can be directly run from the main.html file. The user can go to the login page by clicking sign up and can toggle between various items displayed
+The web app can be directly run from the main.html file. The user can go to the login page by clicking sign up and can toggle between various items displayed. Since the required datas were not made available for the login page, user can login by typing CET ID as user and password as 1234
 
 ## How to contribute ? 
 It would be of great use if the required databases are obtained since this app works on confidential data that we have no access to...
