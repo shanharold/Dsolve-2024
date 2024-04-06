@@ -33,10 +33,10 @@ Javascript
 
 
 ## How to configure
-Instructions for setting up project
+The web app can be directly run from the main.html file. No additional configuration required
 
 ## How to Run
-Instructions for running
+The web app can be directly run from the main.html file. The user can go to the login page by clicking sign up and can toggle between various items displayed
 
 ## How to contribute ? 
-Features to implement 
+It would be of great use if the required databases are obtained since this app works on confidential data that we have no access to...
