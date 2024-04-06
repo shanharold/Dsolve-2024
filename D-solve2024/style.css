@@ -3,6 +3,10 @@
     font-family: "Arial";
     border: "border-box"
 }
+.background
+{
+    color:lightblue;
+}
 
 .navbar{
     height: "60px";
@@ -77,6 +81,7 @@
 .nav-sign-in{
     font-weight: 700;
     font-size: .9rem;
+    color: white;
     margin-left: 15px;
 }
 
@@ -125,6 +130,7 @@
 
 /* Shop Section */
 .shop-section{
+    /* background-color: salmon; */
     display: flex;
     margin-top:40px;
     justify-content: space-evenly;
@@ -132,26 +138,76 @@
 
 
 .box{
-    border:2px solid black;
+    
     height: 400px;
     background-color: white;
     padding: 20px 0px 15px ;
     width:23%;
+    border:.1 solid black;
 }
 
-.box-img
+.box:hover
 {
-    height:300px;
-    background-image: contain;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    border:1px solid black;
 }
 
 .box-content
-{
+{   
     margin-left:1rem;
     margin-right:1rem;
+    /* background-color: violet; */
+    display:flex;
+    flex-direction: column;
 }
-.box-img{
+.box-content h2
+{
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box-content a{
+    color: black;
+    font-style: normal;
+}
+.box-text
+{
+    /* background-color: blue; */
+    display: flex;
+    min-height: 50px;
+}
+.box-img
+/* .box1-img,.box3-img,.box4-img */
+{
+    /* height:300px; */
+    /* background-image:contain ; */
+    /* background-repeat: no-repeat; */
+    /* background-color: yellow; */
+    /* margin-top: 1rem;
+    margin-bottom: 1rem; */
+    display: flex;
+    height:300px;
+    
+}
+.box-see-more
+{
+    /* background-color: red; */
+    margin-top: 15px;;
+    display: flex;
+}
+.box1-img,.box2-img,.box3-img,.box4-img{
+    background-size:cover; 
+    background-repeat: no-repeat;
+
     background-image: url("stationary.jpg");
+
+    width:100%;
+}
+.box2-img{
+    background-image: url("books.jpg");
+}
+.box3-img{
+    background-image: url('sweets.jpg');
+}
+.box4-img
+{
+    background-image: url('Ever.webp');
 }

@@ -32,10 +32,6 @@
     background-image:url('stock1.webp');
     border-radius: 5px;
 }
-.box-img{
-    border:0.1px solid black;
-}
-
 
 .box{
     height: "60px";

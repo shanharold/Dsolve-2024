@@ -9,14 +9,15 @@
 </head>
 <body>
     <div class = "wrapper">
-        <form action ="">
+        <form id ="myForm">
             <h1>Login</h1>
             <div class="input-box">
-                <input type = 'text' placeholder="CET ID" required>
+                <input type = 'text' id="name" placeholder="CET ID" required>
+        
                 <i class='bx bxs-user'></i>
             </div>
             <div class="input-box">
-                <input type ="password" placeholder="Password" required>
+                <input type ="password" id="password" placeholder="Password" required>
                 <i class='bx bxs-lock-open-alt' ></i>
             </div>
 
@@ -26,9 +27,36 @@
                 </label>
             </div>
 
-            <button type = "submit" class = "btn">Login</button>
-
-        </form>
+            
+            
+            <button type = "submit" class = "btn" onclick="verifyInput()">Submit</button>
+        <!-- </form> -->
+        <!-- <form id="myForm">
+            <input type="text" id="userInput" name="userInput" required> -->
+            <!-- <button type="button" onclick="verifyInput()">Submit</button> -->
+          <!-- </form> -->
+          <p id="message"></p>
+        
     </div>
+          <script>
+            function verifyInput() {
+              var userInput = document.getElementById("name").value;
+              var password = document.getElementById("password").value;
+        if (password === "1234" && userInput === "user") {
+            alert("Correct Credentials. Re-directing");
+            window.location.href = "newpage.html";
+        } else {
+            alert("Incorrect password. Please try again.");
+        }
+    
+            //   if(password ==="1234")
+            //   {
+            //         console.out.print("Password is correct")
+            //   }
+            //   } else {
+            //     message.textContent = "Please enter Correct credentials to continue";
+            //   }
+            }
+          </script>
 </body>
 </html>
